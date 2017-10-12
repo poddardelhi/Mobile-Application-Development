@@ -1,0 +1,20 @@
+Following observation were noticed while invoking following lifecycle.
+
+1) On Create 
+- This method was invoked when the application started in the emulator.
+
+2) On Pressing Home Button
+- On Pause lifecycle metho was invoked.
+
+3) On Pressing Back Button
+ - On stop method got invoked
+ - On destroy method hot invoked
+4) On clicking the application
+- On start method got invoked
+-On Resume method got invoked
+
+5) On strating application from background
+
+- On Restart method got invoked
+- onStart got invoked
+- on Resume method invoked 
